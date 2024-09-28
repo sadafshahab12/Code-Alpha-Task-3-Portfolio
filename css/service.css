@@ -1,0 +1,75 @@
+.service {
+  padding: 3rem;
+  background-color: #cfff86;
+}
+.query {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+.query i {
+  font-size: 2rem;
+}
+.query p {
+  font-size: 2rem;
+  font-weight: 600;
+}
+.service-content h2 {
+  font-size: 4rem;
+  color: #3771ff;
+  padding-left: 3rem;
+}
+
+.my-service {
+  display: flex;
+  gap: 2rem;
+  padding: 3rem;
+}
+
+.service-box {
+  width: 37rem;
+  padding: 2rem;
+  border-radius: 2rem;
+  box-shadow: 0 0 1rem #3771ff;
+}
+.icons {
+  padding: 1rem;
+  display: flex;
+  margin: auto;
+  width: 6rem;
+  border-radius: 0.5rem;
+  text-align: center;
+  height: 6rem;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+  background: #000;
+}
+.service-box i {
+  font-size: 2.5rem;
+  color: #fff;
+}
+.service-box h3 {
+  font-size: 2.5rem;
+  text-align: center;
+  padding-bottom: 2rem;
+}
+.service-box p {
+  font-size: 1.5rem;
+  text-align: center;
+  font-weight: 500;
+}
+.service-btn a {
+  margin: auto;
+}
+.service-btn {
+  margin-top: 2rem;
+}
+.available {
+  font-size: 2rem;
+  text-align: center;
+  font-style: italic;
+  font-weight: 600;
+  margin-top: 3rem;
+}
