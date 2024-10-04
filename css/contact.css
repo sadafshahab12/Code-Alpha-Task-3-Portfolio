@@ -59,7 +59,7 @@
   cursor: pointer;
   font-size: 1.75rem;
 }
-.btn-box:hover{
+.c-btn-box:hover{
   box-shadow: 0 0 1.5rem rgba(255, 255, 255, 0.8);
 }
 
