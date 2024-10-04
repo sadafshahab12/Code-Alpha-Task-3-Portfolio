@@ -61,7 +61,7 @@
 }
 
 
-.btn-box::before {
+.c-btn-box::before {
   content: "";
   position: absolute;
   top: 0;
@@ -73,14 +73,14 @@
   transition: 0.5s ease-in;
 }
 
-.btn-box:hover::before {
+.c-btn-box:hover::before {
   width: 100%;
   
 }
-.btn-box:hover {
+.c-btn-box:hover {
   font-weight: 700;
 
 }
-.btn-box:active {
+.c-btn-box:active {
   transform: scale(0.95);
 }
