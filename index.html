@@ -12,6 +12,14 @@
     <link rel="stylesheet" href="css/p-skill.css" />
     <link rel="stylesheet" href="css/portfolio.css" />
     <link rel="stylesheet" href="css/contact.css" />
+    <link rel="stylesheet" href="css/footer.css" />
+    <link rel="stylesheet" href="css/media.css" />
+    <!-- media  -->
+    <link rel="stylesheet" href="media/mobile375.css" />
+    <link rel="stylesheet" href="media/mobile321.css" />
+    <link rel="stylesheet" href="media/mobile425.css" />
+    <link rel="stylesheet" href="media/tablet768.css" />
+    <link rel="stylesheet" href="media/laptop1023.css" />
 
     <!-- font awesome  -->
     <link
@@ -180,7 +188,11 @@
           </p>
 
           <div class="service-btn btn-box">
-            <a href="#" class="btns">Order Now</a>
+            <a
+              href="https://www.linkedin.com/in/sadaf-shahab-ssr123"
+              class="btns"
+              >Order Now</a
+            >
           </div>
         </div>
 
@@ -196,7 +208,11 @@
           </p>
 
           <div class="service-btn btn-box">
-            <a href="#" class="btns">Order Now</a>
+            <a
+              href="https://www.linkedin.com/in/sadaf-shahab-ssr123"
+              class="btns"
+              >Order Now</a
+            >
           </div>
         </div>
 
@@ -212,7 +228,11 @@
           </p>
 
           <div class="service-btn btn-box">
-            <a href="#" class="btns">Order Now</a>
+            <a
+              href="https://www.linkedin.com/in/sadaf-shahab-ssr123"
+              class="btns"
+              >Order Now</a
+            >
           </div>
         </div>
       </div>
@@ -409,7 +429,11 @@
         <h2>My Practiced Projects (Portfolio)</h2>
       </div>
       <div class="projects">
-        <div class="project-filter-btn">
+        <div class="port-head web-display">
+          <p class="port-menu-select">Watch My Portfolio</p>
+          <i class="fa-solid fa-chevron-down"></i>
+        </div>
+        <div class="project-filter-btn port-menu">
           <button class="port-btn" data-filter="all">All</button>
           <button class="port-btn" data-filter=".htmlcss">Html Css</button>
           <button class="port-btn" data-filter=".bootstrap">Bootstrap</button>
@@ -420,6 +444,7 @@
           <button class="port-btn" data-filter=".reactjs">React JS</button>
           <button class="port-btn" data-filter=".nextjs">Next JS</button>
         </div>
+
         <div class="port-gallery">
           <!-- ----------------------------------- -->
           <div class="port-box mix bootstrap">
@@ -441,6 +466,7 @@
               <img src="./port-img/bootstrapwebsite2.png" />
             </div>
             <div class="port-img-tag">
+              tablet768orde
               <h3>Fluffy Delights</h3>
               <p>
                 Fluffy Delights Cake website was made by myself using bootstrap,
@@ -950,8 +976,7 @@
             <div class="port-img-tag">
               <h3>Simple-Calculator</h3>
               <p>Simple-Calculator with Html Css and JavaScript</p>
-              <a
-                href="https://sadafshahab12.github.io/Simple-Calculator/"
+              <a href="https://sadafshahab12.github.io/Simple-Calculator/"
                 ><i class="fa-solid fa-arrow-up-right-from-square"></i
               ></a>
             </div>
@@ -970,15 +995,39 @@
       <form action="#">
         <input type="text" placeholder="Full Name" />
         <input type="email" placeholder="Email" />
-        <input type="number" placeholder="Contact Number" />
+        <input type="text" placeholder="Contact Number" />
         <textarea cols="50" rows="5" placeholder="Message/Feedback"></textarea>
-        <div class="btn-box form-btn">
-          <button type="submit" class="btns">Send Message</button>
+        <div class="form-btn">
+          <button type="submit" class="btns c-btn-box">Send Message</button>
         </div>
       </form>
     </section>
+    <!-- ================================================================= -->
+    <!--Footer  -->
+    <footer>
+      <p>Copyright &copy; by Sadaf Shahab || All Rights Reserved.</p>
+      <div class="links">
+        <a href="#home" title="Home"><i class="fa-solid fa-house"></i></a>
+        <a href="#about" title="About"
+          ><i class="fa-solid fa-circle-info"></i
+        ></a>
+        <a href="#services" title="Services"
+          ><i class="fa-solid fa-clipboard-check"></i
+        ></a>
+        <a href="#skills" title="Skills"
+          ><i class="fa-solid fa-lightbulb"></i
+        ></a>
+        <a href="#portfolio" title="Portfolio"
+          ><i class="fa-solid fa-address-card"></i
+        ></a>
+        <a href="#contact" title="Contact"
+          ><i class="fa-solid fa-square-phone"></i
+        ></a>
+      </div>
+    </footer>
     <script src="./js/mixitup.min.js"></script>
     <script src="./js/portimg.js"></script>
+    <script src="./js/menu.js"></script>
     <script src="./js/app.js"></script>
     <script src="./js/circleanim.js"></script>
   </body>

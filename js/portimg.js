@@ -1,1 +1,1 @@
-let mixer = mixitup('.port-gallery');
+let mixer = mixitup(".port-gallery");

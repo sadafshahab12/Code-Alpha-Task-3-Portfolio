@@ -1,0 +1,328 @@
+@media only screen and (min-width: 376px) and (max-width: 426px) {
+  html {
+    font-size: 43%;
+  }
+  /* ------Home--------- */
+  .home {
+    padding: 10rem 1.5rem 2.5rem 4rem;
+    display: block;
+    height: 120rem;
+  }
+  .home-content {
+    width: 100%;
+  }
+  .home-content h1 {
+    font-size: 4rem;
+  }
+
+  .change-text {
+    margin-top: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .home-img {
+    width: 100%;
+    top: 8rem;
+    height: 31rem;
+    top: -80rem;
+  }
+
+  .home-img img {
+    width: 31rem;
+    z-index: 1;
+    height: 31rem;
+  }
+  .circle {
+    height: 38rem;
+    width: 38rem;
+    top: -3.5rem;
+    right: 8.5rem;
+  }
+  .info {
+    display: block;
+    padding: 2rem 0 2rem 5rem;
+    width: 52rem;
+    border-radius: 4rem;
+    margin-top: 46rem;
+  }
+  .web {
+    font-size: 2rem;
+    gap: 5rem;
+  }
+  /* -------------about ----------- */
+  .about {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .place-1 {
+    width: 11rem;
+    height: 11rem;
+    position: absolute;
+    font-size: 2rem;
+    top: 0;
+    z-index: 1;
+  }
+  .place-2 {
+    width: 14rem;
+    height: 14rem;
+    position: absolute;
+    font-size: 2rem;
+    top: 15rem;
+    left: 36rem;
+    z-index: 1;
+  }
+  .place-3 {
+    width: 13rem;
+    height: 13rem;
+    position: absolute;
+    font-size: 2rem;
+    top: 34rem;
+    left: 4rem;
+    z-index: 1;
+  }
+
+  /* about-content */
+  .about {
+    padding: 6rem 4rem;
+    position: relative;
+  }
+  .about-content {
+    justify-content: center;
+    align-items: center;
+  }
+  .about-content p:first-child {
+    position: absolute;
+    top: 4rem;
+  }
+  .about-img {
+    position: relative;
+    margin-top: 16rem;
+  }
+  .about-content h2 {
+    font-size: 5rem;
+    position: absolute;
+    top: 9rem;
+  }
+  .my-intro {
+    font-size: 2.2rem;
+    line-height: 4rem;
+    width: 57rem;
+    text-align: center;
+  }
+  /* read more  */
+  .read-btn a {
+    font-size: 2.5rem;
+    background: linear-gradient(-299deg, #cfff86 42%, #323030 69%);
+    color: #000;
+  }
+  /* -------services------------ */
+  .service {
+    padding: 2rem;
+  }
+  .query {
+    padding-bottom: 3rem;
+  }
+  .query i {
+    font-size: 2.5rem;
+  }
+  .query p {
+    font-size: 2.5rem;
+  }
+  .service-content h2 {
+    text-align: center;
+    font-size: 5rem;
+  }
+
+  .my-service {
+    display: flex;
+    flex-direction: column;
+    gap: 4rem;
+  }
+  .service-box {
+    width: 100%;
+  }
+  .service-box i {
+    font-size: 3rem;
+  }
+  .service-box h3 {
+    font-size: 3rem;
+  }
+  .service-box p {
+    font-size: 2.25rem;
+    padding-bottom: 3rem;
+  }
+  .btn-box a {
+    font-size: 2.25rem;
+  }
+  .available {
+    font-size: 2.75rem;
+  }
+
+  /* -------skills------------ */
+  .skill {
+    padding: 2rem 4rem;
+  }
+  .skill-content {
+    padding-bottom: 5rem;
+  }
+  .skill-content h2 {
+    font-size: 5rem;
+    text-align: center;
+  }
+  .main-skills {
+    display: block;
+  }
+  .left-skill h3 {
+    font-size: 3rem;
+  }
+
+  .skill-info {
+    font-size: 2rem;
+  }
+  .bar {
+    font-size: 2rem;
+    height: 1.5rem;
+    margin-top: 2rem;
+  }
+  .right-skill h3 {
+    font-size: 3rem;
+    margin-top: 6rem;
+  }
+  .p-box {
+    margin: 2rem 0;
+  }
+  .p-circle .points {
+    width: 0.53rem;
+    height: 1.5rem;
+    transform: rotate(calc(var(--i) * var(--rot))) translateY(-6.5rem);
+  }
+  .p-circle {
+    height: 21rem;
+  }
+  .text h2 {
+    top: 44%;
+    left: 53%;
+    font-size: 3rem;
+  }
+  .text p {
+    font-size: 2.5rem;
+  }
+  /* ---------portfolio------------ */
+  .portfolio {
+    padding: 2rem 4rem;
+    position: relative;
+  }
+
+  .portfolio-content p {
+    font-size: 3rem;
+  }
+  .portfolio-content h2 {
+    font-size: 5rem;
+  }
+
+  /* filter button  */
+
+  .port-btn {
+    font-size: 2.5rem;
+    margin: 0;
+    display: none;
+    transition: all 0.3s ease;
+  }
+
+  .port-menu {
+    background: #cfff86;
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    margin: 3rem auto 4rem auto;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    top: 34.15rem;
+    left: 0;
+    height: 0;
+    transition: height 0.3s linear;
+  }
+  .display {
+    display: none;
+  }
+  .open-port {
+    height: 40rem;
+    display: flex;
+  }
+
+  .port-btn-display {
+    display: flex;
+    justify-content: center;
+  }
+
+  .port-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5rem;
+    border: 1px solid #000;
+    border-radius: 1.5rem;
+    padding: 2rem;
+    margin: 5rem 0 5rem 0;
+  }
+  .port-head p {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .port-head i {
+    font-size: 2.5rem;
+    color: rgb(0, 0, 0);
+  }
+
+  .port-gallery {
+    gap: 4rem;
+  }
+
+  .port-img-tag h3 {
+    font-size: 3.5rem;
+  }
+  .port-img-tag p {
+    font-size: 2.5rem;
+    padding-bottom: 5rem;
+  }
+  .port-img-tag a {
+    width: 6rem;
+    height: 6rem;
+    border: 2px solid #3771ff;
+  }
+  .port-img-tag a i {
+    font-size: 3rem;
+  }
+  /* --------contact form---------- */
+  .contact form input,
+  .contact form textarea {
+    font-size: 2.5rem;
+    padding: 2rem;
+  }
+  .c-btn-box {
+    font-size: 2.75rem;
+  }
+  .contact-content p {
+    font-size: 3rem;
+    margin-bottom: 3rem;
+  }
+  /* --------footer---------- */
+  footer {
+    flex-direction: column;
+  }
+  footer p {
+    font-size: 2rem;
+    padding-bottom: 3rem;
+  }
+
+  footer a {
+    border-radius: 1rem;
+    color: #fff;
+  }
+  footer a i {
+    color: #fffdfd;
+    font-size: 3rem;
+  }
+}

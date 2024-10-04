@@ -1,0 +1,30 @@
+footer{
+    padding: 2.5rem 5%;
+    background-color: #cfff86;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+footer p{
+    color: #000000;
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.links{
+    display: flex;
+    gap: 2rem;
+}
+footer a {
+    display: inline-flex;
+    justify-content: center;
+    background-color: #000000;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    color: #fff;
+
+}
+footer a i{
+    color: #fffdfd;
+    font-size: 2rem;
+}

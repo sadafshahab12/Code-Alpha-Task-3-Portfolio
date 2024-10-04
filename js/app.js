@@ -26,13 +26,13 @@ let changeText = () => {
   });
   nextWord.style.opacity = "1";
   Array.from(nextWord.children).forEach((letter, i) => {
-    letter.className = "letter behind"
+    letter.className = "letter behind";
     setTimeout(() => {
       letter.className = "letter in";
-    },340+  i * 80);
+    }, 340 + i * 80);
   });
-  currWordIndex = currWordIndex === maxWordIndex ? 0 : currWordIndex+1;
+  currWordIndex = currWordIndex === maxWordIndex ? 0 : currWordIndex + 1;
 };
 
 changeText();
-setInterval(changeText , 3000)
+setInterval(changeText, 3000);

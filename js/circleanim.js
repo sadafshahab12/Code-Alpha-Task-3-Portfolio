@@ -16,5 +16,3 @@ pCircles.forEach((points) => {
     pointsMarked[i].classList.add("marked");
   }
 });
-
-

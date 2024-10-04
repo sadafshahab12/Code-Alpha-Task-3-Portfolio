@@ -31,7 +31,7 @@
   position: absolute;
   font-size: 1.25rem;
   top: 6rem;
-  z-index: 200;
+  z-index: 1;
   background: #2c2a2a;
   font-weight: 600;
   text-align: center;
@@ -43,7 +43,7 @@
   font-size: 1.25rem;
   top: 15rem;
   left: 40rem;
-  z-index: 200;
+  z-index: 1;
   background: #2c2a2a;
   font-weight: 600;
   text-align: center;
@@ -55,7 +55,7 @@
   font-size: 1.2rem;
   top: 40rem;
   left: 15rem;
-  z-index: 200;
+  z-index: 1;
   background: #2c2a2a;
   font-weight: 600;
   text-align: center;
